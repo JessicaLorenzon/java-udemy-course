@@ -39,7 +39,7 @@ public class Program {
 		account.deposit(depositValue);
 		System.out.println("Updated account data:");
 		System.out.println(account);
-		
+
 		System.out.println("Enter a withdraw value: ");
 		double withdrawValue = sc.nextDouble();
 		account.withdraw(withdrawValue);

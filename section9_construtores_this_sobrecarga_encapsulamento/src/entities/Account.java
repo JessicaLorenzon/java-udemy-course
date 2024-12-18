@@ -33,21 +33,17 @@ public class Account {
 	public int getAccountNumber() {
 		return accountNumber;
 	}
-	
-	public void deposit (double depositValue) {
+
+	public void deposit(double depositValue) {
 		this.balance += depositValue;
 	}
-	
-	public void withdraw (double withdrawValue) {
+
+	public void withdraw(double withdrawValue) {
 		this.balance -= (withdrawValue + 5.00);
 	}
-	
+
 	public String toString() {
-		return "Account "
-				+ accountNumber
-				+ ", Holder: "
-				+ accountHolder
-				+ ", Balance: $ "
+		return "Account " + accountNumber + ", Holder: " + accountHolder + ", Balance: $ "
 				+ String.format("%.2f%n%n", balance);
 	}
 
