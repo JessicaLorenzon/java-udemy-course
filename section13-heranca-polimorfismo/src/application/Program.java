@@ -15,6 +15,12 @@ public class Program {
 
 	public static void main(String[] args) {
 
+		/*
+		 * Programa para ler os dados de N produtos (N fornecido pelo usuário). Ao
+		 * final, mostrar a etiqueta de preço de cada produto na mesma ordem em que
+		 * foram digitados
+		 */
+
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
